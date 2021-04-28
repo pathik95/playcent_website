@@ -2100,6 +2100,54 @@ body.gallery header.header-section.desktophead {
 }
 
 
+/* Dropdown */
+
+
+.dropdown-content {
+    display: none;
+    position: absolute; 
+    background:#000;
+    min-width: fit-content;
+    border: 1px solid #6050DC;
+    border-radius: 12px;
+    padding: 0 20px !important;
+}
+  
+  .dropdown-content li {
+    display: block;
+    
+    text-align: left;
+    margin-right: auto !important;
+    /* vertical-align: top; */
+    position: relative;
+    padding: 10px 0px;
+    min-width: fit-content;
+    font-weight: 600;
+    color: #9b9b9b;
+    line-height: 30px;
+    border-bottom: 1px solid #979797;
+  }
+
+  .dropdown-content li:last-child{
+      border-bottom: none !important;
+  }
+
+  .show {display: block;}
+
+  .dropdown-content li a{
+    color: #9b9b9b;
+    background-color: #000;
+  }
+
+  .dropdown-content li a:after {
+      background-image: none!important;
+      display: none;
+  }
+
+  .dropdown-content li:hover a {
+    color: #6050DC;
+  }
+
 
 
 
