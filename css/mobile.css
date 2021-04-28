@@ -1,0 +1,476 @@
+@media only screen and (max-width: 767px) {
+    body.BgActive {
+        background-color: #05050C;
+    }
+    header.header-section.desktophead {
+        background: transparent;
+    }
+    header.header-section.desktophead.uk-active {
+        background: #000;
+        border-bottom: 1px solid grey;
+    }
+    .burger-menu {
+        z-index: 9;
+    }
+    .rightpad a {
+        padding: 7px 0;
+    }
+    .navactive .top-navigation {
+        background-color: #000;
+    }
+    .navactive .burger-menu a>span {
+        display: none;
+    }
+    .navactive .burger-menu span.first-line {
+        top: 12px;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .navactive .burger-menu span.second-line {
+        opacity: 0;
+    }
+    .navactive .burger-menu span.third-line {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    a.navclose {
+        display: none;
+    }
+    .logo img {
+        width: 32px;
+        height: auto;
+    }
+    .logo-text {
+        display: none;
+    }
+    .top-navigation.desktoptopnav {
+        width: 100%;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 41px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    h3 {
+        color: #5e0d20;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Cormorant Garamond', serif;
+        line-height: 30px;
+    }
+    .home-overbanner-link a:nth-child(2) {
+        margin-left: 16px;
+    }
+    .home-roadmap .uk-container:before {
+        display: none;
+    }
+    .home-content {
+        font-size: 16px;
+    }
+    .home-content-two {
+        font-size: 16px;
+    }
+    .bannerlogo {
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 40px 0 0 0;
+        max-width: 100%;
+    }
+    .home-overbanner {
+        margin: 0;
+    }
+    .home-overbanner-left {
+        padding-top: 0;
+    }
+    .home-overbanner-right {
+        padding: 0;
+    }
+    .home-overbanner-left {
+        padding: 0;
+    }
+    .home-overbanner-text {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .home-overbanner-link {
+        margin-top: 20px;
+    }
+    .overview-title-main {
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .overview-maintitle {
+        color: #9b9b9b;
+    }
+    .overview-maintitle {
+        color: #000;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 35px;
+    }
+    .home-intro-section a .group-data {
+        transform: scale(1);
+        background-color: #000;
+        transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+    }
+    .home-intro-section a:focus .group-data,
+    .home-intro-section a:hover .group-data {
+        transform: scale(1);
+    }
+    .group-title {
+        color: #9b9b9b
+    }
+    .home-utility-inner-left {
+        padding-right: 0;
+    }
+    .sub-title {
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .home-utility-inner-left h2 {
+        text-align: center;
+    }
+    .utility {
+        text-align: center;
+    }
+    .home-roadmap {
+        padding-top: 25px;
+    }
+    .home-roadmap-image {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .home-roadmap-inner .home-roadmap-card .home-roadmap-image:before {
+        left: 100px;
+    }
+    .home-roadmap-inner .home-roadmap-card:nth-child(even) {
+        margin-top: 0;
+    }
+    .home-roadmap-card-inner ul {
+        max-width: 85%;
+        text-align: center;
+        margin: 15px auto 0 auto;
+    }
+    .home-roadmap-card-inner li {
+        display: table;
+    }
+    /* Home Section */
+    .homebannerdiv::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background-size: contain;
+    }
+    .home-overbanner-left::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 40%;
+        width: 100%;
+        background-image: url(../image/MAPmobile.png);
+        background-size: contain;
+    }
+    .home-overbanner-left::before {
+        background-image: url(../image/shadowmobile.png);
+    }
+    .homebannerdiv::before {
+        width: 100%;
+        height: 400px;
+        top: -70px;
+        background-image: url(../image/shadowmobile.png);
+    }
+    /* Home Banner Right*/
+    .home-banner-right {
+        max-width: 500px;
+        width: 500px;
+        margin: 0 auto !important;
+        display: none;
+    }
+    .home-banner-right div {
+        max-width: 105px;
+        max-height: 130px;
+    }
+    .home-banner-1 {
+        transform: translateX(350px) translateY(-35px);
+    }
+    .home-banner-1:hover {
+        transform: translateX(350px) translateY(-35px);
+    }
+    .home-banner-2 {
+        transform: translateX(350px) translateY(-35px);
+        transition: ease-in;
+    }
+    .home-banner-2 {
+        transform: translateX(0px);
+    }
+    .home-banner-3 {
+        transform: translateX(300px) translateY(75px);
+    }
+    .home-banner-4 {
+        transform: translateX(100px) translateY(-20px);
+    }
+    .home-banner-5 {
+        transform: translateX(150px) translateY(100px);
+    }
+    .home-banner-6 {
+        transform: translateX(60px) translateY(100px);
+    }
+    /* Home Banner Mobile */
+    .home-banner-mobile {
+        margin: 20px 0;
+    }
+    .home-banner-mobile img {
+        width: 100%;
+    }
+    .feature-top .description {
+        width: 100%;
+        font-size: 14px;
+    }
+    /* Feature */
+    .feature-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature-bottom .feature-left {
+        order: 2;
+        width: 100%;
+    }
+    .feature-bottom .feature-right {
+        width: 100%;
+    }
+    .feature-icon {
+        width: 45%;
+        width: calc(50% - 16px);
+        float: left;
+        text-align: center;
+        background-color: #17171F;
+        margin: 8px;
+    }
+    .home-product {
+        padding: 0px 0;
+    }
+    /* Token */
+    .home-token {
+        padding: 40px 0;
+    }
+    .home-token .description {
+        width: auto;
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    .token-area {
+        padding-top: 20px;
+    }
+    .token-area-image {
+        width: 49%;
+        width: calc(50% - 5px);
+        display: inline-block;
+        margin: 12px auto;
+        float: none;
+    }
+    .token-title {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .token-image-full {
+        width: 100%;
+    }
+    .home-token:after {
+        width: 100%;
+        transform: translateX(-50%);
+        top: 25 0px;
+        height: 900px;
+        background-size: contain;
+        /* left: 370px; */
+        overflow: hidden;
+    }
+    .footer .uk-container:after {
+        width: 100%;
+        height: 190px;
+        bottom: 0;
+    }
+    /* Team */
+    .home-profile {
+        background: none;
+        margin-top: 80px;
+    }
+    .home-profile .uk-container {
+        padding: 20px
+    }
+    .home-profile .uk-container:after {
+        display: none;
+        width: 0;
+        height: 0;
+        width: 100%;
+    }
+    .home-profile-data {
+        padding: 0 40px;
+    }
+    .home-profile-content {
+        width: 100%;
+        margin-bottom: 110px;
+    }
+    .home-profile-content.last {
+        margin-bottom: 10px;
+    }
+    .footer-logo {
+        display: none;
+    }
+    /*  */
+    .roadmap-title {
+        top: 0;
+        left: 0;
+        position: relative;
+        transform: none;
+        margin-bottom: 24px;
+    }
+    .roadmap-web {
+        display: none;
+    }
+    .roadmap-mobile {
+        display: block;
+        margin: 0 auto;
+    }
+    .q-title {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .q-desription {
+        width: 100% !important;
+        max-width: 140px;
+        text-align: left;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .q-desription-odd {
+        max-width: 120px;
+    }
+    .q-four.q-common {
+        top: 0px;
+        left: 60%;
+    }
+    .q-one.q-common {
+        top: 170px;
+        left: 20px;
+    }
+    .q-two.q-common {
+        top: 340px;
+        left: 60%;
+    }
+    .q-three-four.q-common {
+        top: 450px;
+        left: 20px;
+    }
+    /*  */
+    .footer .uk-container {
+        padding-bottom: 40px;
+    }
+    .partner-one {
+        width: 100%;
+    }
+    .partner-two {
+        width: 100%;
+    }
+    .partner-three {
+        width: 100%;
+    }
+    .partner-one .one,
+    {
+        width: 28%;
+    }
+    .partner-one .two {
+        width: 36%;
+    }
+    .partner-one .three,
+    .partner-one .four {
+        width: 18%;
+    }
+    .partner-logo-img {
+        padding: 0 10px;
+    }
+    .partner-two {
+        padding: 16px 0;
+    }
+    .partner-two .one {
+        width: 27%;
+    }
+    .partner-two .two {
+        width: 23%;
+    }
+    .partner-two .three {
+        width: 20%;
+    }
+    .partner-two .four {
+        width: 20%;
+    }
+    .partner-two .five {
+        width: 10%;
+    }
+    .partner-three .one {
+        width: 30%;
+        margin-left: 5%;
+    }
+    .partner-three .two {
+        width: 12%;
+    }
+    .partner-three .three {
+        width: 12%;
+    }
+    .partner-three .four {
+        width: 20%;
+    }
+    .partner-three .five {
+        width: 14%;
+        margin-right: 5%;
+    }
+    .investors {
+        padding-top: 50px;
+    }
+    .copy {
+        display: none;
+    }
+    .copy2 {
+        display: block;
+        width: 100%;
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer-bottom {
+        display: flex;
+        padding: 13px 0 10px 0;
+        flex-direction: column-reverse;
+    }
+    .icon {
+        width: 100%;
+        text-align: center;
+    }
+    .icon img {
+        width: 32px;
+    }
+    .icon a:first-child {
+        margin-left: 0px;
+    }
+}
