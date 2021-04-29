@@ -7,11 +7,11 @@
 $.cssNumber.zoom = true;
 if (!("zoom" in document.body.style)) {
     $.cssHooks.zoom = {
-        get: function(elem, computed, extra) {
+        get: function (elem, computed, extra) {
             var value = $(elem).data('zoom');
             return value != null ? value : 1;
         },
-        set: function(elem, value) {
+        set: function (elem, value) {
             var $elem = $(elem);
             var size = { // without margin
                 width: $elem.outerWidth(),
@@ -37,7 +37,7 @@ if (!("zoom" in document.body.style)) {
 }
 
 
-$(document).ready(function() {
+$(document).ready(function () {
     var defaultWidth = 1920;
     var currentWindowWidth = window.innerWidth;
 
@@ -48,8 +48,8 @@ $(document).ready(function() {
 
     //$(document).on("scroll", onScroll);
     //smoothscroll
-    $('a.nav:not(.dropbtn)').on('click', function(e) {
-        $('a.nav').each(function() {
+    $('a.nav:not(.dropbtn)').on('click', function (e) {
+        $('a.nav').each(function () {
             $(this).removeClass('active');
         })
         $(this).addClass('active');
@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 function onScroll(event) {
     var scrollPos = $(document).scrollTop();
-    $('.nav').each(function() {
+    $('.nav').each(function () {
         var percent = 100;
         var defaultWidth = 1920;
         var currentWindowWidth = window.innerWidth;
@@ -85,11 +85,12 @@ function onScroll(event) {
 toggle between hiding and showing the dropdown content */
 function openDropdown() {
     $(".dropdown-content").toggleClass("show");
+    $(".dropbtn").toggleClass("open");
     $('.dropbtn').blur();
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
@@ -97,6 +98,7 @@ window.onclick = function(event) {
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
+                $(".dropbtn").removeClass("open");
             }
         }
     }
