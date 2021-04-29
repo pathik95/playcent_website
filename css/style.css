@@ -265,7 +265,7 @@ a {
 
 .home-roadmap {
     position: relative;
-    padding-top:100px;
+    padding-top: 100px;
 }
 
 .home-roadmap .uk-container {
@@ -501,7 +501,8 @@ a {
 
 .footer-bottom {
     padding: 20px 0;
-    background-color: #323236;
+    opacity: 0.8;
+    background-image: linear-gradient(117deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.11));
 }
 
 .copy {
@@ -815,6 +816,10 @@ header .rightpad {
     border-bottom: 1px solid #AFA4FF;
 }
 
+.dropbtn, .dropbtn:hover {
+    border-bottom: none !important;
+}
+
 .bannerlogo .uk-container {
     max-width: 1240px;
 }
@@ -878,7 +883,6 @@ i.icon-close1 {
     text-decoration: none;
     outline: none;
     background-color: #6050DC;
-    border: 1px solid #6050DC;
     text-decoration: none;
 }
 
