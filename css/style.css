@@ -144,7 +144,7 @@ a {
 }
 
 .home-feature {
-    padding: 40px 0;
+    padding: 140px 0 40px 0;
 }
 
 .feature-top {
@@ -748,12 +748,17 @@ header .rightpad {
     height: 2px;
     display: table;
     margin: 4px auto;
-    background-color: #d8127a;
+    background-color: white;
     position: relative;
     transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
+}
+
+.burger-menu-wrap .third-line{
+    width: 20px;
+    margin-left:10px;
 }
 
 .burger-menu-wrap span.third-line {
@@ -866,7 +871,7 @@ i.icon-close1 {
     margin-top: 70px;
 }
 
-.home-overbanner-link a:link {
+.home-overbanner-link a:link, .home-overbanner-link a:link:visited {
     width: 136px;
     color: #fff;
     font-size: 17px;
@@ -881,10 +886,12 @@ i.icon-close1 {
     outline: none;
     background-color: #6050DC;
     border: 1px solid #6050DC;
+    text-decoration: none;
 }
 
 .home-overbanner-link a:hover {
     background-color: #352899;
+    color: #fff;
 }
 
 .home-overbanner-link a:nth-child(2):hover {
@@ -2497,13 +2504,16 @@ body.gallery header.header-section.desktophead {
 }
 
 .home-banner-1:hover {
-    transform: translateX(100px) translateY(-65px);
+    transition: all 0.5s ease-in;
+    transform: translateX(110px) translateY(-75px) !important;
 }
 
-.home-banner-2 {
-    transform: translateX(100px) translateY(-65px);
-    transition: ease-in;
+
+.home-banner-2:hover {
+    transition: all 0.5s ease-in;
+    transform: translateX(-290px) translateY(-10px) !important;
 }
+
 
 .home-banner-2 {
     transform: translateX(-300px);
@@ -2512,17 +2522,32 @@ body.gallery header.header-section.desktophead {
 .home-banner-3 {
     transform: translateX(210px) translateY(150px);
 }
+.home-banner-3:hover {
+    transition: all 0.5s ease-in;
+    transform: translateX(220px) translateY(140px) !important;
+}
 
 .home-banner-4 {
     transform: translateX(-90px) translateY(-50px);
 }
-
+.home-banner-4:hover {
+    transition: all 0.5s ease-in;
+    transform: translateX(-80px) translateY(-60px) !important;
+}
 .home-banner-5 {
     transform: translateX(-180px) translateY(200px);
+}
+.home-banner-5:hover {
+    transition: all 0.5s ease-in;
+    transform: translateX(-170px) translateY(190px) !important;
 }
 
 .home-banner-6 {
     transform: translateX(11px) translateY(200px);
+}
+.home-banner-6:hover {
+    transition: all 0.5s ease-in;
+    transform: translateX(21px) translateY(190px) !important;
 }
 
 .roadmap-mobile {
@@ -2530,6 +2555,10 @@ body.gallery header.header-section.desktophead {
 }
 
 .copy2 {
+    display: none;
+}
+
+.home-banner-mobile {
     display: none;
 }
 
@@ -3211,7 +3240,7 @@ body.gallery header.header-section.desktophead {
         color: #ddbc6e;
     }
     .uk-active .burger-menu-wrap span {
-        background-color: #d8127a;
+        background-color: #AFA4FF;
     }
     .headerinpad {
         width: 100%;
@@ -3235,7 +3264,7 @@ body.gallery header.header-section.desktophead {
         margin-bottom: 9px;
     }
     .burger-menu-wrap span {
-        background-color: #d8127a;
+        background-color: #AFA4FF;
     }
     .top-navigation.desktoptopnav {}
     .navover {
