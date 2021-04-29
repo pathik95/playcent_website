@@ -22,6 +22,15 @@ body {
     clear: both;
 }
 
+.dropdown-content li a:hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.partner-logo a {
+    cursor: auto !important;
+}
+
 a {
     text-decoration: none;
     transition: all 0.5s ease 0s;
@@ -120,6 +129,12 @@ a {
     background-color: #fff;
 }
 
+.homebannerdiv {
+    background-image: url('../image/map_gradiant.png');
+    background-size: cover;
+}
+
+/* 
 .homebannerdiv:after {
     content: '';
     position: absolute;
@@ -140,7 +155,7 @@ a {
     top: 0;
     background-image: url(../image/bg-left.png);
     background-size: cover;
-}
+} */
 
 .home-feature {
     padding: 140px 0 40px 0;
@@ -386,7 +401,6 @@ a {
     margin-top: -80px;
     border-radius: 50%;
     padding: 25px 15px 0 15px;
-    background-color: #23222A;
 }
 
 .home-profile-main {
@@ -523,8 +537,24 @@ a {
     filter: grayscale(100%);
 }
 
+.icon a:hover .default {
+    display: none;
+}
+
+.icon a .hover {
+    display: none;
+}
+
+.icon a:hover .hover {
+    display: inline-block;
+}
+
 .icon a {
     margin-left: 20px;
+}
+
+.icon a:hover {
+    text-decoration: none;
 }
 
 /*-----------New ---------------*/
@@ -3146,7 +3176,7 @@ body.gallery header.header-section.desktophead {
         width: 100%;
         transition: all 0.3s ease 0s;
         min-width: 100%;
-    }
+    }   
     header.header-section.desktophead.uk-active {
         background: #000;
     }

@@ -1,47 +1,24 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 112.196 112.196" style="enable-background:new 0 0 112.196 112.196;" xml:space="preserve">
-<g>
-	<circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098"/>
-	<g>
-		<path style="fill:#F1F2F2;" d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118
-			c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715
-			c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662
-			C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967
-			c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969z
-			 M27.865,83.739H41.27V43.409H27.865V83.739z"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>C11ED971-1D60-41EE-AED6-AECB3612BA90@1.5x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="lp" transform="translate(-1731.000000, -6581.000000)">
+            <g id="Group-31" transform="translate(1.000000, 6551.000000)">
+                <g id="Group-14" transform="translate(1570.000000, 30.000000)">
+                    <g id="Group-13" transform="translate(160.000000, 0.000000)">
+                        <g id="Group-12-Copy" fill="#FFFFFF">
+                            <circle id="Oval" cx="20" cy="20" r="20"></circle>
+                        </g>
+                        <g id="linkedin" transform="translate(9.000000, 6.000000)" fill="#000000" fill-rule="nonzero">
+                            <path d="M23.994,24 L23.994,23.999 L24,23.999 L24,15.197 C24,10.891 23.073,7.574 18.039,7.574 C15.619,7.574 13.995,8.902 13.332,10.161 L13.262,10.161 L13.262,7.976 L8.489,7.976 L8.489,23.999 L13.459,23.999 L13.459,16.065 C13.459,13.976 13.855,11.956 16.442,11.956 C18.991,11.956 19.029,14.34 19.029,16.199 L19.029,24 L23.994,24 Z" id="Path"></path>
+                            <polygon id="Path" points="0.396 7.977 5.372 7.977 5.372 24 0.396 24"></polygon>
+                            <path d="M2.882,0 C1.291,0 0,1.291 0,2.882 C0,4.473 1.291,5.791 2.882,5.791 C4.473,5.791 5.764,4.473 5.764,2.882 C5.763,1.291 4.472,0 2.882,0 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
