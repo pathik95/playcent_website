@@ -36,16 +36,15 @@ if (!("zoom" in document.body.style)) {
     };
 }
 
-
 $(document).ready(function () {
-  
+
     var defaultWidth = 1920;
     var currentWindowWidth = window.innerWidth;
 
     if (currentWindowWidth > 1024 && currentWindowWidth < defaultWidth) {
         var percent = (currentWindowWidth * 100) / defaultWidth;
         document.body.style.zoom = Math.round(percent) + '%';
-     
+
     }
 
     //$(document).on("scroll", onScroll);
@@ -56,6 +55,8 @@ $(document).ready(function () {
         })
         $(this).addClass('active');
     });
+
+    setTimeout(() => { $('html').css("scroll-behavior", "smooth"); }, 1000);
 
 });
 

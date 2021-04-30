@@ -1,8 +1,8 @@
 /* font-family: 'Open Sans', sans-serif; */
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 .logo a:hover {
     text-decoration: none;
@@ -58,6 +58,12 @@ a {
 
 .logo {
     width: 135px;
+}
+
+.desktophead {
+    position: fixed;
+    top: 0px;
+    width: 100;
 }
 
 .desktophead .logo img {
@@ -3176,7 +3182,7 @@ body.gallery header.header-section.desktophead {
         width: 100%;
         transition: all 0.3s ease 0s;
         min-width: 100%;
-    }   
+    }
     header.header-section.desktophead.uk-active {
         background: #000;
     }
