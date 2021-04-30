@@ -543,15 +543,15 @@ a {
     filter: grayscale(100%);
 }
 
-.icon a:hover .default {
+.icon a:hover .default, .home-profile-main a:hover .default {
     display: none;
 }
 
-.icon a .hover {
+.icon a .hover, .home-profile-main a .hover {
     display: none;
 }
 
-.icon a:hover .hover {
+.icon a:hover .hover, .home-profile-main a:hover .hover {
     display: inline-block;
 }
 
@@ -823,7 +823,7 @@ header .rightpad {
     font-weight: 600;
     position: relative;
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top-navigation li:last-child a:after {

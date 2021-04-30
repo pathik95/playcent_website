@@ -35,8 +35,24 @@
 </head>
 
 <body id="Body" class="home BgActive common">
+    <script type="text/javascript">
+        var defaultWidth = 1920;
+        var currentWindowWidth = window.innerWidth;
+
+        if (currentWindowWidth > 1024 && currentWindowWidth < defaultWidth) {
+            var percent = (currentWindowWidth * 100) / defaultWidth;
+            document.body.style.zoom = Math.round(percent) + '%';
+
+        }
+
+        $(".morebtn").click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass("expandedtext");
+            $(this).siblings('.hidetxt').slideToggle('slow');
+        });
+    </script>
     <div id="wrapper">
-        <header id="main" class="desktophead header-section uk-sticky uk-sticky-fixed uk-active" uk-sticky >
+        <header id="main" class="desktophead header-section uk-sticky uk-sticky-fixed uk-active" uk-sticky>
             <div class="headerinpad">
                 <div class="mainlogo">
                     <div class="logo">
@@ -333,7 +349,8 @@
                         <div class="home-profile-main">
                             Sandeep Sudagani <span>CEO</span>
                             <a href="https://www.linkedin.com/in/sandeepsudhagani/">
-                                <img src="image/linkedin.png" alt="linkedin" width="20" height="20">
+                                <img class="default" src="image/linkedin.svg" alt="linkedin" width="20" height="20">
+                                <img class="hover" src="image/linkedin-white.svg" alt="linkedin" width="20" height="20">
                             </a>
                         </div>
                     </div>
@@ -344,7 +361,8 @@
                         <div class="home-profile-main">
                             Jay Kishan<span>CTO</span>
                             <a href="https://www.linkedin.com/in/jaykishan-nammi-ba0b7a12b/">
-                                <img src="image/linkedin.png" alt="linkedin" width="20" height="20">
+                                <img class="default" src="image/linkedin.svg" alt="linkedin" width="20" height="20">
+                                <img class="hover" src="image/linkedin-white.svg" alt="linkedin" width="20" height="20">
                             </a>
                         </div>
                     </div>
@@ -355,7 +373,8 @@
                         <div class="home-profile-main">
                             Ian Friend<span>Strategic Advisor</span>
                             <a href="https://www.linkedin.com/in/ian-friend-bb949657/">
-                                <img src="image/linkedin.png" alt="linkedin" width="20" height="20">
+                                <img class="default" src="image/linkedin.svg" alt="linkedin" width="20" height="20">
+                                <img class="hover" src="image/linkedin-white.svg" alt="linkedin" width="20" height="20">
                             </a>
                         </div>
                     </div>
@@ -366,7 +385,8 @@
                         <div class="home-profile-main">
                             Mohit Madan<span>Strategic Advisor</span>
                             <a href="https://www.linkedin.com/in/madanmohit/">
-                                <img src="image/linkedin.png" alt="linkedin" width="20" height="20">
+                                <img class="default" src="image/linkedin.svg" alt="linkedin" width="20" height="20">
+                                <img class="hover" src="image/linkedin-white.svg" alt="linkedin" width="20" height="20">
                             </a>
                         </div>
                     </div>
@@ -494,15 +514,9 @@
             </div>
         </div>
     </div>
-    
+
     <script src="js/custom.js"></script>
-    <script type="text/javascript">
-        $(".morebtn").click(function (e) {
-            e.preventDefault();
-            $(this).toggleClass("expandedtext");
-            $(this).siblings('.hidetxt').slideToggle('slow');
-        });
-    </script>
+
 </body>
 
 </html>
