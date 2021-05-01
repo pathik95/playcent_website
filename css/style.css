@@ -2683,6 +2683,52 @@ body.gallery header.header-section.desktophead {
         margin-top: 5px;
         overflow: hidden;
     }
+    .home-token:after {
+        width: 1250px;
+    }
+
+    .home-banner-1 {
+        transform: translateX(-10px) translateY(-65px);
+    }
+    .home-banner-1:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(0px) translateY(-75px) !important;
+    }
+    .home-banner-2:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-410px) translateY(-10px) !important;
+    }
+    .home-banner-2 {
+        transform: translateX(-420px);
+    }
+    .home-banner-3 {
+        transform: translateX(100px) translateY(150px);
+    }
+    .home-banner-3:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(110px) translateY(140px) !important;
+    }
+    .home-banner-4 {
+        transform: translateX(-200px) translateY(-50px);
+    }
+    .home-banner-4:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-190px) translateY(-60px) !important;
+    }
+    .home-banner-5 {
+        transform: translateX(-290px) translateY(200px);
+    }
+    .home-banner-5:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-280px) translateY(190px) !important;
+    }
+    .home-banner-6 {
+        transform: translateX(-101px) translateY(200px);
+    }
+    .home-banner-6:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-91px) translateY(190px) !important;
+    }
 }
 
 @media only screen and (max-width: 1260px) {
@@ -3415,5 +3461,50 @@ body.gallery header.header-section.desktophead {
 @media only screen and (min-width: 1024px) and (max-width: 1500px) {
     .bannerlogo {
         transform: translate(0px, -200px);
+    }
+}
+
+@media only screen and (min-width:1480px) and (max-width:1500px) {
+    .home-banner-1 {
+        transform: translateX(20px) translateY(-65px);
+    }
+    .home-banner-1:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(30px) translateY(-75px) !important;
+    }
+    .home-banner-2:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-370px) translateY(-10px) !important;
+    }
+    .home-banner-2 {
+        transform: translateX(-380px);
+    }
+    .home-banner-3 {
+        transform: translateX(130px) translateY(150px);
+    }
+    .home-banner-3:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(140px) translateY(140px) !important;
+    }
+    .home-banner-4 {
+        transform: translateX(-170px) translateY(-50px);
+    }
+    .home-banner-4:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-160px) translateY(-60px) !important;
+    }
+    .home-banner-5 {
+        transform: translateX(-260px) translateY(200px);
+    }
+    .home-banner-5:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-250px) translateY(190px) !important;
+    }
+    .home-banner-6 {
+        transform: translateX(-71px) translateY(200px);
+    }
+    .home-banner-6:hover {
+        transition: all 0.5s ease-in;
+        transform: translateX(-61px) translateY(190px) !important;
     }
 }
