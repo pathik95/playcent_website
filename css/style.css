@@ -461,7 +461,7 @@ a {
 }
 
 .partner-three {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -474,8 +474,9 @@ a {
 }
 
 .partner-three .partner-logo-img {
-    width: 20%;
+    width: 16%;
 }
+
 
 .partner-logo-img {
     float: left;
@@ -2686,7 +2687,6 @@ body.gallery header.header-section.desktophead {
     .home-token:after {
         width: 1250px;
     }
-
     .home-banner-1 {
         transform: translateX(-10px) translateY(-65px);
     }
